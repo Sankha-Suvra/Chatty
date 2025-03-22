@@ -19,7 +19,7 @@ app.use(express.json({limit: "5mb"}));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://chattyfi.netlify.app/login",
+    origin: "https://chattyfi.netlify.app/",
     credentials: true
   })
 );
